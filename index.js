@@ -12,7 +12,8 @@ const extractZip = (base64String, dist) => new Promise((resolve, reject) => {
     let binaryString = decodeBase64ToBinary(base64String);
     fs.writeFile(dist, binaryString, {encoding: 'binary'}, err => {
         if (err) reject(err)
-        else resolve('file saved!')
+        else resolve('file saved!');
+    });
 });
 
 module.exports = extractZip;

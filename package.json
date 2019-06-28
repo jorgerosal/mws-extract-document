@@ -1,6 +1,6 @@
 {
   "name": "mws-extract-document",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extracting ZIP/PDF document from mws base64 string api response.",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/yortrosal/mws-extract-document/issues"
   },
-  "homepage": "https://github.com/yortrosal/mws-extract-document#readme"
+  "homepage": "https://github.com/yortrosal/mws-extract-document#readme",
+  "dependencies": {}
 }
