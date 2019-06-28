@@ -17,7 +17,7 @@
     "GetBillOfLading",
     "Amazon MWS Extract PDF Document",
     "Amazon MWS API base64",
-    "Amazon MWS PdfDocument"
+    "Amazon MWS PdfDocument",
     "Decode Base64 MWS PdfDocument to Binary"
   ],
   "author": "Jorge Rosal",
@@ -25,6 +25,5 @@
   "bugs": {
     "url": "https://github.com/yortrosal/mws-base64-to-zip/issues"
   },
-  "homepage": "https://github.com/yortrosal/mws-base64-to-zip#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/yortrosal/mws-base64-to-zip#readme"
 }
