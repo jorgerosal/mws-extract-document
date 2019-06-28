@@ -1,4 +1,4 @@
-# mws-base64-extract
+# mws-extract-document
 [Work around](https://docs.developer.amazonservices.com/en_US/fba_inbound/FBAInbound_ExtractingPdfDocumentData.html) to extract Zip/PDF Document from MWS Base64-encoded string mws api response.
 
 ## MWS End-Points
@@ -9,13 +9,13 @@
 
 ## Install
 ```
-$ npm install mws-base64-extract --save
+$ npm install mws-extract-document --save
 ```
 
 ## Basic Usage
 
 ```js
-const mwsExtract = require('mws-base64-extract');
+const mwsExtract = require('mws-extract-document');
 
 const dist = './folder/to/document.zip';
 const base64String = ''; //located at PdfDocument data response from MWS api.
