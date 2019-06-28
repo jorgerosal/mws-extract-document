@@ -1,5 +1,5 @@
 {
-  "name": "mws-base64-to-zip",
+  "name": "mws-base64-extract",
   "version": "1.0.0",
   "description": "Extracting ZIP/PDF document from mws base64 string api response.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yortrosal/mws-base64-to-zip.git"
+    "url": "git+https://github.com/yortrosal/mws-base64-extract.git"
   },
   "keywords": [
     "GetPackageLabels",
@@ -23,7 +23,7 @@
   "author": "Jorge Rosal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yortrosal/mws-base64-to-zip/issues"
+    "url": "https://github.com/yortrosal/mws-base64-extract/issues"
   },
-  "homepage": "https://github.com/yortrosal/mws-base64-to-zip#readme"
+  "homepage": "https://github.com/yortrosal/mws-base64-extract#readme"
 }
